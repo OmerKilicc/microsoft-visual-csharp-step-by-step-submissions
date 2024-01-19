@@ -1,0 +1,14 @@
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\bin\Debug\net6.0\TestHello.exe
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\bin\Debug\net6.0\TestHello.deps.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\bin\Debug\net6.0\TestHello.runtimeconfig.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\bin\Debug\net6.0\TestHello.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\bin\Debug\net6.0\TestHello.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\TestHello.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\TestHello.AssemblyInfoInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\TestHello.AssemblyInfo.cs
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\TestHello.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\TestHello.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\refint\TestHello.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\TestHello.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\TestHello.genruntimeconfig.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 1\TestHello - Complete\TestHello\obj\Debug\net6.0\ref\TestHello.dll
