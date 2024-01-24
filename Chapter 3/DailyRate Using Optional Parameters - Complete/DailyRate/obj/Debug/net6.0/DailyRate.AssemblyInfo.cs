@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DailyRate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86f06242e4120611c5ea7046cb8142d79932075e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DailyRate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DailyRate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

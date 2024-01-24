@@ -37,7 +37,6 @@
                 <RadioButton x:Name="subtraction" VerticalAlignment="Top" Content="- Subtraction" FontSize="28" />
                 <RadioButton x:Name="multiplication" VerticalAlignment="Top" Content="* Multiplication" FontSize="28" />
                 <RadioButton x:Name="division" VerticalAlignment="Top" Content="/ Division" FontSize="28" />
-                <RadioButton x:Name="remainder" VerticalAlignment="Top" Content="% Remainder" FontSize="28" />
             </StackPanel>
             <Button x:Name="calculate" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Calculate" FontSize="28" Click="calculateClick" />
             <TextBlock Grid.Row="7" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Expression:" FontSize="28" />

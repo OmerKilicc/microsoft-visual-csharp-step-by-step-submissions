@@ -17,88 +17,81 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Methods
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    public sealed partial class MainPage : Page
-    {
-        public MainPage()
-        {
-            this.InitializeComponent();
-        }
+	/// <summary>
+	/// An empty page that can be used on its own or navigated to within a Frame.
+	/// </summary>
+	public sealed partial class MainPage : Page
+	{
+		public MainPage()
+		{
+			this.InitializeComponent();
+		}
 
-        private void calculateClick(object sender, RoutedEventArgs e)
-        {
-            int calculatedValue = 0;
+		private void calculateClick(object sender, RoutedEventArgs e)
+		{
+			int calculatedValue = 0;
 
-            try
-            {
-                int leftHandSide = System.Int32.Parse(lhsOperand.Text);
-                int rightHandSide = System.Int32.Parse(rhsOperand.Text);
+			try
+			{
+				int leftHandSide = System.Int32.Parse(lhsOperand.Text);
+				int rightHandSide = System.Int32.Parse(rhsOperand.Text);
 
-                if (addition.IsChecked.HasValue && addition.IsChecked.Value)
-                {
-                    calculatedValue = addValues(leftHandSide, rightHandSide);
-                    showResult(calculatedValue);
-                }
-                else if (subtraction.IsChecked.HasValue && subtraction.IsChecked.Value)
-                {
-                    calculatedValue = subtractValues(leftHandSide, rightHandSide);
-                    showResult(calculatedValue);
-                }
-                else if (multiplication.IsChecked.HasValue && multiplication.IsChecked.Value)
-                {
-                    calculatedValue = multiplyValues(leftHandSide, rightHandSide);
-                    showResult(calculatedValue);
-                }
-                else if (division.IsChecked.HasValue && division.IsChecked.Value)
-                {
-                    calculatedValue = divideValues(leftHandSide, rightHandSide);
-                    showResult(calculatedValue);
-                }
-                else if (remainder.IsChecked.HasValue && remainder.IsChecked.Value)
-                {
-                    calculatedValue = remainderValues(leftHandSide, rightHandSide);
-                    showResult(calculatedValue);
-                }
-            }
-            catch (Exception caught)
-            {
-                expression.Text = "";
-                result.Text = caught.Message;
-            }
-        }
+				if (addition.IsChecked.HasValue && addition.IsChecked.Value)
+				{
+					calculatedValue = addValues(leftHandSide, rightHandSide);
+					showResult(calculatedValue);
+				}
+				else if (subtraction.IsChecked.HasValue && subtraction.IsChecked.Value)
+				{
+					calculatedValue = subtractValues(leftHandSide, rightHandSide);
+					showResult(calculatedValue);
+				}
+				else if (multiplication.IsChecked.HasValue && multiplication.IsChecked.Value)
+				{
+					calculatedValue = multiplyValues(leftHandSide, rightHandSide);
+					showResult(calculatedValue);
+				}
+				else if (division.IsChecked.HasValue && division.IsChecked.Value)
+				{
+					int division, remainder;
+					(division, remainder) = divide(leftHandSide, rightHandSide);
+					result.Text = $"{division} remainder : {remainder}";
+				}
+			}
+			catch (Exception caught)
+			{
+				expression.Text = "";
+				result.Text = caught.Message;
+			}
+		}
 
-        private int addValues(int leftHandSide, int rightHandSide)
-        {
-            expression.Text = $"{leftHandSide} + {rightHandSide}";
-            return leftHandSide + rightHandSide;
-        }
+		private int addValues(int leftHandSide, int rightHandSide)
+		{
+			expression.Text = $"{leftHandSide} + {rightHandSide}";
+			return leftHandSide + rightHandSide;
+		}
 
-        private int subtractValues(int leftHandSide, int rightHandSide)
-        {
-            expression.Text = $"{leftHandSide} - {rightHandSide}";
-            return leftHandSide - rightHandSide;
-        }
+		private int subtractValues(int leftHandSide, int rightHandSide)
+		{
+			expression.Text = $"{leftHandSide} - {rightHandSide}";
+			return leftHandSide - rightHandSide;
+		}
 
-        private int multiplyValues(int leftHandSide, int rightHandSide)
-        {
-            expression.Text = $"{leftHandSide} * {rightHandSide}";
-            return leftHandSide * rightHandSide;
-        }
+		private int multiplyValues(int leftHandSide, int rightHandSide)
+		{
+			expression.Text = $"{leftHandSide} * {rightHandSide}";
+			return leftHandSide * rightHandSide;
+		}
 
-        private int divideValues(int leftHandSide, int rightHandSide)
-        {
-            expression.Text = $"{leftHandSide} / {rightHandSide}";
-            return leftHandSide / rightHandSide;
-        }
+		private (int, int) divide(int leftHandSide, int rightHandSide)
+		{
+			expression.Text = $"{leftHandSide} / {rightHandSide}";
+			int division = leftHandSide / rightHandSide;
+			int remainder = leftHandSide % rightHandSide;
+			return (division, remainder);
+		}
 
-        private int remainderValues(int leftHandSide, int rightHandSide)
-        {
-            expression.Text = $"{leftHandSide} % {rightHandSide}";
-            return leftHandSide % rightHandSide;
-        }
 
-        private void showResult(int answer) => result.Text = answer.ToString();
-    }
+		private void showResult(int answer) => result.Text = answer.ToString();
+	}
 }

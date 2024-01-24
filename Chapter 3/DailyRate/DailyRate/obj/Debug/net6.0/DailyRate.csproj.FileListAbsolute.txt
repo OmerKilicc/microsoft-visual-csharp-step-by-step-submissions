@@ -1,0 +1,15 @@
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\bin\Debug\net6.0\DailyRate.exe
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\bin\Debug\net6.0\DailyRate.deps.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\bin\Debug\net6.0\DailyRate.runtimeconfig.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\bin\Debug\net6.0\DailyRate.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\bin\Debug\net6.0\DailyRate.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.AssemblyInfoInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.AssemblyInfo.cs
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.sourcelink.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\refint\DailyRate.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\DailyRate.genruntimeconfig.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 3\DailyRate\DailyRate\obj\Debug\net6.0\ref\DailyRate.dll
