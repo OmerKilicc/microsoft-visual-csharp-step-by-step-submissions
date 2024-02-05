@@ -6,7 +6,9 @@ namespace ParamsArray
     {
         static void doWork()
         {
-            // TODO:		
+
+            Console.WriteLine(Utils.Sum(10,9));
+            Console.WriteLine(Utils.Sum(1,1,2,3,4,5,6,7,8,9,0,8));
         }
 
         static void Main()

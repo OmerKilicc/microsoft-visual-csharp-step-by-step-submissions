@@ -1,0 +1,15 @@
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\bin\Debug\net6.0\StructsAndEnums.exe
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\bin\Debug\net6.0\StructsAndEnums.deps.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\bin\Debug\net6.0\StructsAndEnums.runtimeconfig.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\bin\Debug\net6.0\StructsAndEnums.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\bin\Debug\net6.0\StructsAndEnums.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.AssemblyInfoInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.AssemblyInfo.cs
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.sourcelink.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\refint\StructsAndEnums.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\StructsAndEnums.genruntimeconfig.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 9\StructsAndEnums\StructsAndEnums\obj\Debug\net6.0\ref\StructsAndEnums.dll

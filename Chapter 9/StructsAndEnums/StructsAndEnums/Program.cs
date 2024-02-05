@@ -9,6 +9,15 @@ namespace StructsAndEnums
 			// TODO: Test the enumeration
 			Month firstMonth = Month.January;
 			Console.WriteLine(firstMonth);
+
+			var defaultDate = new Date();
+			Console.WriteLine(defaultDate);
+
+			Date anniversary = new Date(2022, Month.April, 5);
+			Console.WriteLine(anniversary);
+
+			Date copyAnniversary = anniversary;
+			Console.WriteLine(copyAnniversary);
 		}
 
 		static void Main()

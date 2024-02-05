@@ -10,6 +10,13 @@ namespace Cards
 
         public void AddCardToHand(PlayingCard cardDealt)
         {
+            if (this.playingCardCount >= HandSize)
+            {
+                throw new ArgumentException("Too many cards to hold");
+            }
+
+            this.cards[this.playingCardCount] = cardDealt;
+            this.playingCardCount++;
             // TODO: add the specified card to the hand
         }
 
