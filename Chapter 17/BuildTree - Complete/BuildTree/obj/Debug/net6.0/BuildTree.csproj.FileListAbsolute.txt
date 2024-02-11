@@ -1,0 +1,5 @@
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 17\BuildTree - Complete\BuildTree\obj\Debug\net6.0\BuildTree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 17\BuildTree - Complete\BuildTree\obj\Debug\net6.0\BuildTree.AssemblyInfoInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 17\BuildTree - Complete\BuildTree\obj\Debug\net6.0\BuildTree.AssemblyInfo.cs
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 17\BuildTree - Complete\BuildTree\obj\Debug\net6.0\BuildTree.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 17\BuildTree - Complete\BuildTree\obj\Debug\net6.0\BuildTree.sourcelink.json
