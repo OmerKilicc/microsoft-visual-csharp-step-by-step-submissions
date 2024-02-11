@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Security.Cryptography.X509Certificates;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
@@ -18,52 +19,55 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Drawing
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    public sealed partial class MainPage : Page
-    {
-        public MainPage()
-        {
-            this.InitializeComponent();
-        }
+	/// <summary>
+	/// An empty page that can be used on its own or navigated to within a Frame.
+	/// </summary>
+	public sealed partial class MainPage : Page
+	{
+		public MainPage()
+		{
+			this.InitializeComponent();
+		
+		}
 
-        private void drawingCanvas_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            Point mouseLocation = e.GetPosition(this.drawingCanvas);
-            Square mySquare = new Square(100);
+		private void drawingCanvas_Tapped(object sender, TappedRoutedEventArgs e)
+		{
+			Point mouseLocation = e.GetPosition(this.drawingCanvas);
+			Square mySquare = new Square(100);
 
-            if (mySquare is IDraw)
-            {
-                IDraw drawSquare = mySquare;
-                drawSquare.SetLocation((int)mouseLocation.X, (int)mouseLocation.Y);
-                drawSquare.Draw(drawingCanvas);
-            }
+			if (mySquare is IDraw)
+			{
+				IDraw drawSquare = mySquare;
+				drawSquare.X = (int)mouseLocation.X;
+				drawSquare.Y = (int)mouseLocation.Y;
+				drawSquare.Draw(drawingCanvas);
+			}
 
-            if (mySquare is IColor)
-            {
-                IColor colorSquare = mySquare;
-                colorSquare.SetColor(Colors.BlueViolet);
-            }
-        }
+			if (mySquare is IColor)
+			{
+				IColor colorSquare = mySquare;
+				colorSquare.Color = Colors.BlueViolet;
+			}
+		}
 
-        private void drawingCanvas_RightTapped(object sender, RightTappedRoutedEventArgs e)
-        {
-            Point mouseLocation = e.GetPosition(this.drawingCanvas);
-            Circle myCircle = new Circle(100);
+		private void drawingCanvas_RightTapped(object sender, RightTappedRoutedEventArgs e)
+		{
+			Point mouseLocation = e.GetPosition(this.drawingCanvas);
+			Circle myCircle = new Circle(100);
 
-            if (myCircle is IDraw)
-            {
-                IDraw drawCircle = myCircle;
-                drawCircle.SetLocation((int)mouseLocation.X, (int)mouseLocation.Y);
-                drawCircle.Draw(drawingCanvas);
-            }
+			if (myCircle is IDraw)
+			{
+				IDraw drawCircle = myCircle;
+				drawCircle.X = (int)mouseLocation.X;
+				drawCircle.Y = (int)mouseLocation.Y;
+				drawCircle.Draw(drawingCanvas);
+			}
 
-            if (myCircle is IColor)
-            {
-                IColor colorCircle = myCircle;
-                colorCircle.SetColor(Colors.HotPink);
-            }
-        }
-    }
+			if (myCircle is IColor)
+			{
+				IColor colorCircle = myCircle;
+				colorCircle.Color = Colors.HotPink;
+			}
+		}
+	}
 }

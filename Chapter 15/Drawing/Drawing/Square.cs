@@ -10,13 +10,15 @@ using Windows.UI.Xaml.Controls;
 
 namespace Drawing
 {
-    class Square : DrawingShape, IDraw, IColor
+	class Square : DrawingShape, IDraw, IColor
     {
         public Square(int sideLength):base(sideLength)
         {            
         }
 
-        public override void Draw(Canvas canvas)
+		public Color Color { set => throw new NotImplementedException(); }
+
+		public override void Draw(Canvas canvas)
         {
             if(this.shape!=null)
             {

@@ -11,44 +11,47 @@ using System.Threading.Tasks;
 
 namespace Drawing
 {
-    abstract class DrawingShape
-    {
-        protected int _size;
-        protected int _x = 0, _y = 0;
-        protected Shape shape = null;
+	abstract class DrawingShape
+	{
+		protected int _size;
+		protected Shape shape = null;
 
-        public DrawingShape(int size)
-        {
-            this._size = size;
-        }
+		protected int _x = 0;
+		public int X { get => this._x; set => this._x = value; }
 
-        public void SetLocation(int xCoord, int yCoord)
-        {
-            this._x = xCoord;
-            this._y = yCoord;
-        }
+		protected int _y = 0;
+		public int Y { get => this._y; set => this._y = value; }
 
-        public void SetColor(Color color)
-        {
-            if(this.shape!=null)
-            {
-                SolidColorBrush brush = new SolidColorBrush(color);
-                this.shape.Fill = brush;
-            }
-        }
+		public DrawingShape(int size)
+		{
+			this._size = size;
+		}
 
-        public virtual void Draw(Canvas canvas)
-        {
-            if(this.shape is null)
-            {
-                throw new InvalidOperationException("Shape is null");
-            }
 
-            this.shape.Height = this._size;
-            this.shape.Width = this._size;
-            Canvas.SetTop(this.shape, this._y);
-            Canvas.SetLeft(this.shape, this._x);
-            canvas.Children.Add(this.shape);
-        }
-    }    
+		public Color color
+		{
+			set
+			{
+				if (this.shape is not null)
+				{
+					SolidColorBrush brush = new SolidColorBrush(value);
+					this.shape.Fill = brush;
+				}
+			}		
+		}
+
+		public virtual void Draw(Canvas canvas)
+		{
+			if (this.shape is null)
+			{
+				throw new InvalidOperationException("Shape is null");
+			}
+
+			this.shape.Height = this._size;
+			this.shape.Width = this._size;
+			Canvas.SetTop(this.shape, this._y);
+			Canvas.SetLeft(this.shape, this._x);
+			canvas.Children.Add(this.shape);
+		}
+	}
 }

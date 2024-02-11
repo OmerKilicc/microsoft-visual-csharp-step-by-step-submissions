@@ -1,0 +1,15 @@
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\bin\Debug\net6.0\GarbageCollection.exe
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\bin\Debug\net6.0\GarbageCollection.deps.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\bin\Debug\net6.0\GarbageCollection.runtimeconfig.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\bin\Debug\net6.0\GarbageCollection.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\bin\Debug\net6.0\GarbageCollection.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.AssemblyInfoInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.AssemblyInfo.cs
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.sourcelink.json
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\refint\GarbageCollection.dll
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.pdb
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\GarbageCollection.genruntimeconfig.cache
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 14\GarbageCollection\GarbageCollection\obj\Debug\net6.0\ref\GarbageCollection.dll

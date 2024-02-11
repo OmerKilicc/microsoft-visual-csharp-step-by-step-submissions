@@ -17,37 +17,51 @@ using Windows.UI.Xaml.Navigation;
 
 namespace Indexers
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    public sealed partial class MainPage : Page
-    {
-        private PhoneBook phoneBook = new PhoneBook();
+	/// <summary>
+	/// An empty page that can be used on its own or navigated to within a Frame.
+	/// </summary>
+	public sealed partial class MainPage : Page
+	{
+		private PhoneBook phoneBook = new PhoneBook();
 
-        public MainPage()
-        {
-            this.InitializeComponent();
-        }
+		public MainPage()
+		{
+			this.InitializeComponent();
+		}
 
-        private void findByNameClick(object sender, RoutedEventArgs e)
-        {
-            // TODO:
-        }
+		private void findByNameClick(object sender, RoutedEventArgs e)
+		{
+			// TODO:
+			string text = name.Text;
+			if (!String.IsNullOrEmpty(text))
+			{
+				Name personsName = new Name(text);
+				PhoneNumber personsPhoneNumber = this.phoneBook[personsName];
+				phoneNumber.Text = String.IsNullOrEmpty(personsPhoneNumber.Text) ? "Not Found" : personsPhoneNumber.Text;
+			}
+		}
 
-        private void findByPhoneNumberClick(object sender, RoutedEventArgs e)
-        {
-            // TODO:
-        }
+		private void findByPhoneNumberClick(object sender, RoutedEventArgs e)
+		{
+			// TODO:
+			string text = phoneNumber.Text;
+			if (!String.IsNullOrEmpty(text))
+			{
+				PhoneNumber personsPhoneNumber = new PhoneNumber(text);
+				Name personsName = this.phoneBook[personsPhoneNumber];
+				name.Text = String.IsNullOrEmpty(personsName.Text) ? "Not Found" : personsName.Text;
+			}
+		}
 
-        private void addClick(object sender, RoutedEventArgs e)
-        {
-            if (!String.IsNullOrEmpty(name.Text) && !String.IsNullOrEmpty(phoneNumber.Text))
-            {
-                phoneBook.Add(new Name(name.Text),
-                              new PhoneNumber(phoneNumber.Text));
-                name.Text = "";
-                phoneNumber.Text = "";
-            }
-        }
-    }
+		private void addClick(object sender, RoutedEventArgs e)
+		{
+			if (!String.IsNullOrEmpty(name.Text) && !String.IsNullOrEmpty(phoneNumber.Text))
+			{
+				phoneBook.Add(new Name(name.Text),
+							  new PhoneNumber(phoneNumber.Text));
+				name.Text = "";
+				phoneNumber.Text = "";
+			}
+		}
+	}
 }

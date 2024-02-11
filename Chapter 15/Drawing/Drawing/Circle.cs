@@ -16,7 +16,9 @@ namespace Drawing
         {            
         }
 
-        public override void Draw(Canvas canvas)
+		public Color Color { set => throw new NotImplementedException(); }
+
+		public override void Draw(Canvas canvas)
         {
             if(this.shape!=null)
             {
