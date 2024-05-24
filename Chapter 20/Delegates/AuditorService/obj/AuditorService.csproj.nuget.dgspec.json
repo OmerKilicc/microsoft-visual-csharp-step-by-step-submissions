@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\AuditorService\\AuditorService.csproj": {}
+  },
+  "projects": {
+    "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\AuditorService\\AuditorService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\AuditorService\\AuditorService.csproj",
+        "projectName": "AuditorService",
+        "projectPath": "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\AuditorService\\AuditorService.csproj",
+        "packagesPath": "C:\\Users\\kilic\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\AuditorService\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kilic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {
+              "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\DataTypes\\DataTypes.csproj": {
+                "projectPath": "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\DataTypes\\DataTypes.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\DataTypes\\DataTypes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\DataTypes\\DataTypes.csproj",
+        "projectName": "DataTypes",
+        "projectPath": "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\DataTypes\\DataTypes.csproj",
+        "packagesPath": "C:\\Users\\kilic\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Projects\\CSharpProjects\\Books\\Microsoft Visual CSharp Step by Step 10th Edition\\VCSBS\\Chapter 20\\Delegates\\DataTypes\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kilic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Popups;
@@ -10,8 +6,10 @@ using DataTypes;
 
 namespace DeliveryService
 {
-    public class Shipper
+	public class Shipper
     {
+        public delegate void ShippingCompleteDelegate(string message);
+        public event ShippingCompleteDelegate ShipProcessingComplete;
         public void ShipOrder(Order order)
         {
             this.doShipping(order);
@@ -44,6 +42,13 @@ namespace DeliveryService
             {
                 MessageDialog dlg = new MessageDialog(ex.Message, "Exception");
                 _ = dlg.ShowAsync();
+            }
+            finally
+            {
+                if (this.ShipProcessingComplete is not null)
+                {
+                    this.ShipProcessingComplete($"Dispatch note generated for Order {order.OrderID}");
+                }
             }
         }
     }

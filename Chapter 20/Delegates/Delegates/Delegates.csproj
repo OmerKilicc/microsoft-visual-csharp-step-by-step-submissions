@@ -11,7 +11,7 @@
     <AssemblyName>Delegates</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22000.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -160,6 +160,10 @@
     <ProjectReference Include="..\AuditorService\AuditorService.csproj">
       <Project>{72C382F5-3EE9-45FF-AF82-2D8B782C98EA}</Project>
       <Name>AuditorService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CheckoutService\CheckoutService.csproj">
+      <Project>{8ae46dac-89c2-4f7b-b7f9-e6a09ea5c85c}</Project>
+      <Name>CheckoutService</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataTypes\DataTypes.csproj">
       <Project>{137d7876-59d3-4749-b550-24067a594b17}</Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuildTree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15cc763c6af1907ac450f4d3ac8e61ccc9d2a849")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48e75c1851731b7242c6f09565ae9646ce21f3ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuildTree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuildTree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

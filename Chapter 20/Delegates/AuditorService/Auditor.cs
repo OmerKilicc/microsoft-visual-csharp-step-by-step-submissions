@@ -1,18 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Windows.UI.Popups;
-using Windows.Storage.Pickers;
 using Windows.Storage;
 using Windows.Data.Xml.Dom;
 using DataTypes;
 
 namespace AuditService
 {
-    public class Auditor
+	public class Auditor
     {
+        public delegate void AuditingCompleteDelegate(string message);
+        public event AuditingCompleteDelegate AuditProcessingComplete;
         public void AuditOrder(Order order)
         {
             this.doAuditing(order);
@@ -55,6 +53,13 @@ namespace AuditService
                 {
                     MessageDialog dlg = new MessageDialog(ex.Message, "Exception");
                     _ = dlg.ShowAsync();
+                }
+                finally
+                {
+                    if(this.AuditProcessingComplete is not null)
+                    {
+                        this.AuditProcessingComplete($"Audit record written for Order {order.OrderID}");
+                    }
                 }
             }
         }

@@ -3,40 +3,40 @@ using DataTypes;
 using DeliveryService;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-
+using CheckoutService;
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace Delegates
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
-    public sealed partial class MainPage : Page
+	/// <summary>
+	/// An empty page that can be used on its own or navigated to within a Frame.
+	/// </summary>
+	public sealed partial class MainPage : Page
     {
         private ProductsDataSource data = null;
         private Order order = null;
         private Auditor auditor = null;
         private Shipper shipper = null;
+        private CheckoutController checkoutController = null;
 
         public MainPage()
         {
             this.InitializeComponent();
 
+            //initilize the auditor,shipper and checkout controller
             this.auditor = new Auditor();
             this.shipper = new Shipper();
+            this.checkoutController = new CheckoutController();
+
+            //subscribe the checkout processing delegate
+            this.checkoutController.CheckoutProcessing += this.auditor.AuditOrder;
+            this.checkoutController.CheckoutProcessing += this.shipper.ShipOrder;
+
+            this.auditor.AuditProcessingComplete += this.displayMessage;
+            this.shipper.ShipProcessingComplete += this.displayMessage;
         }
 
         private void MainPageLoaded(object sender, RoutedEventArgs e)
@@ -107,15 +107,7 @@ namespace Delegates
             try
             {
                 // Perform the checkout processing
-                if (this.requestPayment())
-                {
-                    this.auditor.AuditOrder(this.order);
-                    this.shipper.ShipOrder(this.order);
-                }
-
-                // Display a summary of the order
-                MessageDialog dlg = new MessageDialog($"Order {order.OrderID}, value {order.TotalValue:C}", "Order Placed");
-                _ = dlg.ShowAsync();
+                this.checkoutController.StartCheckoutProcessing(this.order);
 
                 // Clear out the order details so the user can start again with a new order
                 this.order = new Order { Date = DateTime.Now, Items = new List<OrderItem>(), OrderID = Guid.NewGuid(), TotalValue = 0 };
@@ -131,13 +123,9 @@ namespace Delegates
             }
         }
 
-        private bool requestPayment()
+        private void displayMessage(string message)
         {
-            // Payment processing goes here
-
-            // Payment logic is not implemented in this example
-            // - simply return true to indicate payment has been received
-            return true;
+			this.messageBar.Text += $"{message}{Environment.NewLine}";
         }
     }
 }

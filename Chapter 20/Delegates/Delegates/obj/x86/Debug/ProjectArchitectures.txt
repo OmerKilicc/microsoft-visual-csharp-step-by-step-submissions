@@ -1,0 +1,8 @@
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\AuditorService\AuditorService.csproj;x86
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\CheckoutService\CheckoutService.csproj;x86
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\DataTypes\DataTypes.csproj;x86
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\Delegates\Delegates.csproj;x86
+D:\Dev\Projects\CSharpProjects\Books\Microsoft Visual CSharp Step by Step 10th Edition\VCSBS\Chapter 20\Delegates\DeliveryService\DeliveryService.csproj;x86
